@@ -1,0 +1,17 @@
+@layer utilities {
+  .bg-gradient-subtle {
+    @apply bg-gradient-to-br from-white via-blue-50/30 to-violet-50/30;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-blue-600 to-violet-600;
+  }
+  
+  .bg-gradient-primary-hover {
+    @apply hover:from-blue-700 hover:to-violet-700;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+  }
+}
